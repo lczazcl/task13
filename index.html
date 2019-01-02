@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_992822_28nvqbk62he.css">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_992822_28nvqbk62he.css">
   <style>
     /* header */
     header {
@@ -224,7 +224,7 @@
       color:#222;
       font-size:40px;
     }
-    section .team > figure > a:hover {
+    section .team > figure > .iconfont:hover {
       color:#f7ba3e;
     }
     section .team-text {
@@ -290,10 +290,21 @@
     }
     footer {
       text-align: center;
+      line-height:50px;
       padding:25px 0;
     }
     footer .footer-information {
+      width:33.33%;
       float:left;
+    }
+    footer .footer-information .iconfont {
+      font-size:40px;
+    }
+    footer .friendship-link a {
+      color:#fed136;
+    }
+    footer .friendship-link a:hover {
+      text-decoration:underline;
     }
   </style>
 </head>
@@ -498,9 +509,8 @@
         <a href="" class="iconfont icon-lianshu"></a>
         <a href="" class="iconfont icon-in"></a>
       </div>
-      <div class="footer-information">
-        <a href="">Privacy Policy</a>
-        <a href="">Terms of Use</a>
+      <div class="footer-information friendship-link">
+        <a href="">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Terms of Use</a>
       </div>
     </div>
   </footer>
